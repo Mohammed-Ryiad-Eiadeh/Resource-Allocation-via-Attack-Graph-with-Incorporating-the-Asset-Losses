@@ -76,3 +76,22 @@ In the following table, $Wf=0.9$ for AARA-PR. The null hypothesis is rejected an
 | **Sum of Ranks**                    | **12**      | 6                         | 6                             |
 | **Mean Rank**                       | **3**       | 1.5                       | 1.5                           |
 
+# Conclusion
+
+This study introduced a new defensive resource allocation strategy to assess decision-making's impact on interdependent system security. We started by using attack graphs to model systems and vulnerabilities. We then proposed a resource allocation method, prioritizing edges using in-Degree Defense. We adapted the PageRank algorithm to prioritize critical assets based on connectivity and assets' losses. Our method has low sensitivity to varying attacks, aiding decision-makers in enhancing system security. We extensively evaluated our approach across four real-world systems, confirming its effectiveness. We also compared our method with two existing resource allocation techniques, demonstrating its efficacy. Our findings suggests that \name is a viable security allocation method (specially when loss values of critical assets are heterogeneous), significantly strengthening system security. Additionally, we offer an open-source implementation of our framework for further exploration and customization.
+
+# How To Run The Code (read carefully please)
+
+1) Download intellIJ IDEA latest version
+2) Dounload JDK 17 or higher
+3) Set up the environment variable for the bin folder of the JDK 17+
+4) Open the IDEA
+5) Open the project
+6) Make sure you are connected to the internet
+7) Wait while the IDEA download all the libraries that are included as dependencies in the pom XML file
+8) Go to the main file (here you will get 3 files that are executable (have "psvm" method)) so these files are as follows:
+
+   a) BehavioralDefenderMain: this class is used to run a behavioral defender based on prospect theory for allocating the resourcess.
+   b) DefenseInDepthMain: this class is used to allocate the resourcess equally over all edges of the given graph.
+   c) PageRankWithInDegreeMain: this class is used to run AARA-PR which uses PageRank to rank the assets considering the losess and propagating the resourcess on the in-degree edges of each asset.
+   
