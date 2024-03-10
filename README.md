@@ -43,3 +43,15 @@ For our assessment, we used ten distinct attack graphs, each symbolizing a diffe
 | DER.1 [13] | 22 | 32 | 6 | Directed |
 | E-Commerce [14] | 20 | 32 | 4 | Directed |
 | VOIP [14] | 22 | 35 | 6 | Directed |
+
+Note: all of these datasets are stored in the project directory and is called dynamically so no need to set up their paths.
+
+# Parameter Configuration of Our Experiments
+
+We specify the primary hyperparameters used in our framework components. For the GA, parameters include: maximum iterations ($M=500$), population size ($N=2000$), mating probability ($m_p=0.2$), mutation rate ($m_r=0.2$), and weight factor ($Wf=0.001$) for the fitness function. The defender's security budget is set at $S=20$, and the PR algorithm parameters include maximum iterations ($PR_{iter}=100$) and epsilon ($\epsilon=0.0001$). We employed different values for $Wf_1$ (weight factor in our modified PageRank algorithm). We emphasize that our defense strategies' benefits are applicable across different security budgets. For the behavioral defender baseline~\cite{Abdallah2020}, we set the behavioral level ($a$) at 0.5. It is also worth noting that initial weights on the edges were randomly generated with values between 0 and 1.
+
+# Comparison of GeniGraph and baseline systems on all datasets
+
+The row "Measurements" show the relative difference of the expected cost $CR$ for all defense scenarios. The larger $CR$, the better the defense method with significance level equals 0.05 for the Friedman test.
+
+
