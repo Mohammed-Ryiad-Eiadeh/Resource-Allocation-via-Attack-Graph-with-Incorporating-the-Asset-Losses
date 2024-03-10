@@ -55,10 +55,10 @@ We specify the primary hyperparameters used in our framework components. For the
 The row "Measurements" show the relative difference of the expected cost $CR$ for all defense scenarios. The larger $CR$, the better the defense method with significance level equals 0.05 for the Friedman test.
 | **System**                           | **\name**   | **Defense in Depth** | **Behavioral Defender** |
 |-------------------------------------|-------------|---------------------------|-------------------------------|
-| SCADA                          | **89.519**  | 63.212                    | 68.397                        |
-| DER.1                          | **89.870**  | 46.474                    | 45.731                        |
-| E-Commerce                     | **73.530**  | 46.474                    | 45.731                        |
-| VOIP                           | **66.723**  | 43.528                    | 45.294                        |
+| SCADA [12]                         | **89.519**  | 63.212                    | 68.397                        |
+| DER.1 [13]                         | **89.870**  | 46.474                    | 45.731                        |
+| E-Commerce [14]                    | **73.530**  | 46.474                    | 45.731                        |
+| VOIP [14]                          | **66.723**  | 43.528                    | 45.294                        |
 | **Rank First**                      | **4**       | 0                         | 0                             |
 | **Sum of Ranks**                    | **12**      | 6                         | 6                             |
 | **Mean Rank**                       | **3**       | 1.5                       | 1.5                           |
