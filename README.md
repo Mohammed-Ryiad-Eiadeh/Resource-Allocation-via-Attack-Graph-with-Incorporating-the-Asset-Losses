@@ -65,4 +65,14 @@ In the following table, $Wf=0.01$ for AARA-PR. The null hypothesis is rejected a
 | **Sum of Ranks**                    | **12**      | 6                         | 6                             |
 | **Mean Rank**                       | **3**       | 1.5                       | 1.5                           |
 
+In the following table, $Wf=0.9$ for AARA-PR. The null hypothesis is rejected and AARA-PR is ranked the best.
+| **System**                           | **\name**   | **Defense in Depth** | **Behavioral Defender** |
+|-------------------------------------|-------------|---------------------------|-------------------------------|
+| SCADA [12]                         | **88.250**  | 63.212                    | 68.397                        |
+| DER.1 [13]                         | 92.745  | 46.474                    | 45.731                        |
+| E-Commerce [14]                     | **95.527**  | 46.474                    | 45.731                        |
+| VOIP [14]                          | **52.897**  | 43.528                    | 45.294                        |
+| **Rank First**                      | **4**       | 0                         | 0                             |
+| **Sum of Ranks**                    | **12**      | 6                         | 6                             |
+| **Mean Rank**                       | **3**       | 1.5                       | 1.5                           |
 
