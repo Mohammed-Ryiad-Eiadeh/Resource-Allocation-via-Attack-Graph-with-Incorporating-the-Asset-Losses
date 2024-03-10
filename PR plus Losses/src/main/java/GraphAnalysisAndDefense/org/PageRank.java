@@ -166,21 +166,6 @@ public class PageRank {
     }
 
     /**
-     * This method is used to calculate the sum of out degree edges weights for the given node
-     * @param node The node of interest
-     * @return The summation of the weights
-     */
-    private double getSumOfOutEdges(int node) {
-        double sumOfWeights = 0d;
-        for (int i = 0; i < adjMatrix.length; i++) {
-            if (adjMatrix[node - 1][i] > 0) {
-                sumOfWeights += Math.exp(-adjMatrix[node - 1][i]);
-            }
-        }
-        return sumOfWeights;
-    }
-
-    /**
      * This method is used to count the number of out degree edges for the given node
      * @param node The node of interest
      * @return The number of the outgoing weights
