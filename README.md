@@ -37,9 +37,9 @@ This function accounts for the total asset loss that the system will lose if the
 
 For our assessment, we used ten distinct attack graphs, each symbolizing a different interdependent system and network structure. We divided these datasets into three groups. The first group contains four attack graphs from real-world interconnected systems, namely DER.1, SCADA, E-commerce, and VOIP. Signifies an attack step, and we consider every edge to be bidirectional. The second group consists of two graph typologies, referred to as HG1 and HG2, which were introduced in earlier studies. The third group includes four datasets from a renowned interactive scientific graph data repository, named aves-sparrow-social-2009 (ASC2009), aves-sparrowlyon-flock-season3 (ASFS3), aves-weaver-social-03 (AWS03), and aves-barn-swallow-non-physical (ABSNP). This repository is a network data collection produced by top-tier US niversities. 
 
-| System | # Nodes | # Edges | # Critical Assets | $v_s$ / $v_m$ | Graph Type |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| SCADA [12] | 13 | 20 | 6 | 1 / 13 | Directed |
-| DER.1 [13] | 22 | 32 | 6 | 1 / 22 | Directed |
-| E-Commerce [14] | 20 | 32 | 4 | 1 / 20 | Directed |
-| VOIP [14] | 22 | 35 | 6 | 1 / 22 | Directed |
+| System | # Nodes | # Edges | # Critical Assets | Graph Type |
+| --- | --- | --- | --- | --- |
+| SCADA [12] | 13 | 20 | 6 | Directed |
+| DER.1 [13] | 22 | 32 | 6 | Directed |
+| E-Commerce [14] | 20 | 32 | 4 | Directed |
+| VOIP [14] | 22 | 35 | 6 | Directed |
