@@ -92,6 +92,8 @@ This study introduced a new defensive resource allocation strategy to assess dec
 8) Go to the main file (here you will get 3 files that are executable (have "psvm" method)) so these files are as follows:
 
    a) BehavioralDefenderMain: this class is used to run a behavioral defender based on prospect theory for allocating the resourcess.
+
    b) DefenseInDepthMain: this class is used to allocate the resourcess equally over all edges of the given graph.
+
    c) PageRankWithInDegreeMain: this class is used to run AARA-PR which uses PageRank to rank the assets considering the losess and propagating the resourcess on the in-degree edges of each asset.
    
