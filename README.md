@@ -24,6 +24,6 @@ $F_2(P) = \max_{P \in P_m} \big(\exp\big(-\sum_{(v_i,v_j)\in P} {x_{i,j}}\big) +
 
    $Wf$ is the weight factor lies in [0,1]
    
-This function accounts for the total asset loss that the system will loos if the attack is occured successfully.
+This function accounts for the total asset loss that the system will lose if the attack is occured successfully.
 
 
