@@ -26,4 +26,10 @@ $F_2(P) = \max_{P \in P_m} \big(\exp\big(-\sum_{(v_i,v_j)\in P} {x_{i,j}}\big) +
    
 This function accounts for the total asset loss that the system will lose if the attack is occured successfully.
 
+# Our Contribution
+
+1) We propose a method for security resource allocation in interdependent systems, where assets are interlinked. Our approach impacts decision-making processes related to system security, and we quantify the enhancement achieved through our allocation method.
+2) We use the Genetic Algorithm (GA) to identify likely attack paths from entry nodes to critical assets. The GA determines the attack paths for each potential entry node, considering the total estimated financial loss associated with specific attack paths.
+3) We adapt the popular PageRank algorithm to consider assets's losses when doing ranking of the importance of different system's critical assets.
+4) We evaluate AARA-PR on four systems. We compare it against two baseline resource allocation methods.
 
