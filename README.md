@@ -107,3 +107,13 @@ This study introduced a new defensive resource allocation strategy to assess dec
 [13] S. Jauhar, B. Chen, W. G. Temple, X. Dong, Z. Kalbarczyk, W. H. Sanders, and D. M. Nicol. 2015. Model-based cybersecurity assessment with nescor smart grid failure scenarios. In Dependable Computing (PRDC), 2015 IEEE 21st Pacific Rim International Symposium on. IEEE, 319–324.
 
 [14] G. Modelo-Howard, S. Bagchi, and G. Lebanon. 2008. Determining placement of intrusion detectors for a distributed application through bayesian network modeling. In International Workshop on Recent Advances in Intrusion Detection. Springer, 271–290.
+
+# Contact With Authors
+
+Send email to the following authors for any question about this work, and it is our pleasure to ansawer your question.
+
+Mohammad Aleiadeh, mraleiad@iu.edu or maleiade@purdue.edu
+
+dr. Mustafa Abdallah, mabdall@iu.edu or abdalla0@purdue.edu
+
+Note: Authors are arranged alphabetically.
