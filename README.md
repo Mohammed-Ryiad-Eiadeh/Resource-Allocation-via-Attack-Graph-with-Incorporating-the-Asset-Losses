@@ -96,4 +96,7 @@ This study introduced a new defensive resource allocation strategy to assess dec
    b) DefenseInDepthMain: this class is used to allocate the resourcess equally over all edges of the given graph.
 
    c) PageRankWithInDegreeMain: this class is used to run AARA-PR which uses PageRank to rank the assets considering the losess and propagating the resourcess on the in-degree edges of each asset.
+
+9) Set up the desired hyperparameters
+10) Run the file to see the results.
    
