@@ -10,4 +10,20 @@ Our proposed framework, AARA-PR addresses resource allocation challenges in inte
 
 ![Picture2](https://github.com/Mohammed-Ryiad-Eiadeh/Resource-Allocation-via-Attack-Graph-with-Incorporating-the-Asset-Losses/assets/93108547/77502246-2ad5-4c41-8e48-033c8d05c04b)
 
+# Fitness Function
+
+$F_2(P) = \max_{P \in P_m} \big(\exp\big(-\sum_{(v_i,v_j)\in P} {x_{i,j}}\big) + Wf\sum_{v_m\in P} L_m\big).$
+   
+   $P$ is the given attack path.
+
+   $P_m$ is a set of attack paths.
+
+   $v_i,v_j$ are the nodes in $P$.
+
+   $L_m$ is the loss corresponding to node $v_m$
+
+   $Wf$ is the weight factor lies in [0,1]
+   
+This function accounts for the total asset loss that the system will loos if the attack is occured successfully.
+
 
