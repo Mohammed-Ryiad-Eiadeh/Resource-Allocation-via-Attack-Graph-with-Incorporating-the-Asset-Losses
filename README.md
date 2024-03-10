@@ -1,4 +1,4 @@
-# Paper Tiltle: AARA-PR: Asset-Aware PageRank-based Security Resource Allocation Method for Attack Graphs
+# AARA-PR: Asset-Aware PageRank-based Security Resource Allocation Method for Attack Graphs
 
 # abstract
 
