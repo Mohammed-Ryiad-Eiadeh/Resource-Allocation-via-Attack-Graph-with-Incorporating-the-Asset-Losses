@@ -53,6 +53,8 @@ We specify the primary hyperparameters used in our framework components. For the
 # Comparison of GeniGraph and baseline systems on all datasets
 
 The row "Measurements" show the relative difference of the expected cost $CR$ for all defense scenarios. The larger $CR$, the better the defense method with significance level equals 0.05 for the Friedman test.
+
+In the following table, $Wf=0.01$ for AARA-PR. The null hypothesis is rejected and AARA-PR is ranked the best.
 | **System**                           | **\name**   | **Defense in Depth** | **Behavioral Defender** |
 |-------------------------------------|-------------|---------------------------|-------------------------------|
 | SCADA [12]                         | **89.519**  | 63.212                    | 68.397                        |
