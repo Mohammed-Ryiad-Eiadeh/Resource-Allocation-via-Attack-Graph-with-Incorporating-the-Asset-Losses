@@ -38,7 +38,7 @@ This function accounts for the total asset loss that the system will lose if the
 
 # Datasets We Used In Our Work
 
-For our assessment, we used ten distinct attack graphs, each symbolizing a different interdependent system and network structure. We divided these datasets into three groups. The first group contains four attack graphs from real-world interconnected systems, namely DER.1, SCADA, E-commerce, and VOIP. Signifies an attack step, and we consider every edge to be bidirectional. The second group consists of two graph typologies, referred to as HG1 and HG2, which were introduced in earlier studies. The third group includes four datasets from a renowned interactive scientific graph data repository, named aves-sparrow-social-2009 (ASC2009), aves-sparrowlyon-flock-season3 (ASFS3), aves-weaver-social-03 (AWS03), and aves-barn-swallow-non-physical (ABSNP). This repository is a network data collection produced by top-tier US niversities. 
+For our assessment, we used four distinct attack graphs, each symbolizing a different interdependent system and network structure. These datasets include attack graphs from real-world interconnected systems, namely DER.1, SCADA, E-commerce, and VOIP. Signifies an attack step, and we consider every edge to be directional. 
 
 | System | # Nodes | # Edges | # Critical Assets | Graph Type |
 | --- | --- | --- | --- | --- |
