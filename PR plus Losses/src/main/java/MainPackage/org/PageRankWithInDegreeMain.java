@@ -21,7 +21,16 @@ public class PageRankWithInDegreeMain {
         var assetLossVec = task.getNodeAssetsLossValues();
         task.Display(AdjMat);
 
-        // Generate paths by genetic algorithm from each entry node to each asset
+       
+    /**
+     * Note: Although crossover was included in the published methodology,
+     * it has been removed because, in the original implementation, it did
+     * not update the population under the implemented conditions.
+     * Consequently, crossover introduced unnecessary computational overhead
+     * without contributing to the evolutionary process. Its removal preserves
+     * the effective optimization behavior and maintains consistency with
+     * the published experimental results.
+     */
         var concurrentAttackers = new ConcurrentAttack(AdjMat,
                 assetLossVec,
                 2000,
